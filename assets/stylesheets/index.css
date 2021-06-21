@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+*{
+    font-family: 'ABeeZee', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.9);
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav-item a{
+    font-weight: 500;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #FE8800 !important;
+    padding: 5px 12px !important;
+}
+header{
+    height: 100vh;
+    background-image: url(../img/background/hero_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header_company_name{
+    width: fit-content;
+}
+.header_company_name h1 {
+    overflow: hidden;
+    border-right: .15em solid #FE8800;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@media screen and (max-width: 450px){
+    .header_company_name h1 {
+        font-size: 33px;
+    }    
+}
+@media screen and (max-width: 350px){
+    .header_company_name h1 {
+        font-size: 28px;
+    }    
+}
+@media screen and (max-width: 300px){
+    .header_company_name h1 {
+        font-size: 24px;
+    }    
+}
+/* Typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FE8800; }
+}
+.header_ride_button {
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    border: 1.4px solid white;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 20px;
+}
+.header_ride_button:hover {
+    color: #FE8800;
+    background: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
