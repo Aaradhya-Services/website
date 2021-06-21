@@ -44,24 +44,31 @@ header{
     letter-spacing: .05em;
     font-weight: bolder;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
+    color: #FE8800 !important;
     animation: 
       typing 1.5s steps(40, end),
       blink-caret .75s step-end infinite;
+    text-shadow: -0.9px 0.9px rgb(219, 219, 219);
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 460px){
     .header_company_name h1 {
-        font-size: 33px;
+        font-size: 38px;
     }    
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 390px){
     .header_company_name h1 {
-        font-size: 28px;
+        font-size: 34px;
     }    
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 360px){
     .header_company_name h1 {
-        font-size: 24px;
+        font-size: 29px;
+    }    
+}
+@media screen and (max-width: 310px){
+    .header_company_name h1 {
+        font-size: 26px;
     }    
 }
 /* Typing effect */
