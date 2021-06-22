@@ -48,7 +48,7 @@ header{
     animation: 
       typing 1.5s steps(40, end),
       blink-caret .75s step-end infinite;
-    text-shadow: -0.9px 0.9px rgb(219, 219, 219);
+    text-shadow: -2px 2px rgb(0, 0, 0);
 }
 @media screen and (max-width: 460px){
     .header_company_name h1 {
