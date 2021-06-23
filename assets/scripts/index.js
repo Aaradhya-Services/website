@@ -27,3 +27,7 @@ $('#offers_carousel_right_button').on('click', () => {
         active_carousel_item=active_carousel_item+1
     }
 });
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
