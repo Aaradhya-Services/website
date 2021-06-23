@@ -1,6 +1,8 @@
-const carousel_items = $( ".carousel_item");
-const no_of_carousel_items = carousel_items.length;
-
+const no_of_carousel_items = $( ".carousel_item").length;
+if(no_of_carousel_items == 1){
+    $('#offers_carousel_left_button').hide();
+    $('#offers_carousel_right_button').hide();
+}
 var active_carousel_item = 0;
 
 $('#offers_carousel_left_button').on('click', () => {
