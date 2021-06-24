@@ -26,11 +26,7 @@ nav{
 }
 header{
     height: 100vh;
-    background-image: url(../img/background/hero_background_2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.185);
 }
 .header_company_name{
     width: fit-content;
@@ -49,6 +45,15 @@ header{
       typing 1.5s steps(40, end),
       blink-caret .75s step-end infinite;
     text-shadow: -2px 2px rgb(0, 0, 0);
+}
+.header_background_video{
+    position: fixed; 
+    top: -250px; 
+    min-width: 100vw; 
+    min-height: 100vh; 
+    z-index: -1; 
+    right: calc(50% - 1920px/2); 
+    bottom: calc(50% - 1080px/2);
 }
 @media screen and (max-width: 460px){
     .header_company_name h1 {
