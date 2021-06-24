@@ -121,7 +121,7 @@ header{
     transition: 0.3s;
 }
 footer{
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0);
 }
 @media screen and (max-width: 768px){
     #foot_left {
