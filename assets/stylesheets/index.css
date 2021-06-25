@@ -26,34 +26,29 @@ nav{
 }
 header{
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: rgba(0, 0, 0, 0.363);
 }
 .header_company_name{
     width: fit-content;
 }
 .header_company_name h1 {
     overflow: hidden;
-    border-right: .15em solid #FE8800;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .05em;
     font-weight: bolder;
     text-align: center;
     font-size: 45px;
-    color: #FE8800 !important;
-    animation: 
-      typing 1.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+    color: white !important;
     text-shadow: -2px 2px rgb(0, 0, 0);
 }
 .header_background_video{
-    position: fixed; 
-    top: -250px; 
+    position: fixed;
     min-width: 100vw; 
     min-height: 100vh; 
     z-index: -1; 
-    right: calc(50% - 1920px/2); 
-    bottom: calc(50% - 1080px/2);
+    left: calc(50% - 1920px/2); 
+    top: calc(50% - 1080px/2);
 }
 @media screen and (max-width: 460px){
     .header_company_name h1 {
@@ -74,16 +69,6 @@ header{
     .header_company_name h1 {
         font-size: 26px;
     }    
-}
-/* Typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #FE8800; }
 }
 .header_ride_button {
     width: 200px;
