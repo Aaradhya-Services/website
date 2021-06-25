@@ -26,7 +26,7 @@ nav{
 }
 header{
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .header_company_name{
     width: fit-content;
@@ -38,9 +38,9 @@ header{
     letter-spacing: .05em;
     font-weight: bolder;
     text-align: center;
-    font-size: 45px;
+    font-size: 48px;
     color: white !important;
-    text-shadow: -2px 2px rgb(0, 0, 0);
+    font-weight: 900;
 }
 .header_background_video{
     position: fixed;
@@ -50,24 +50,45 @@ header{
     left: calc(50% - 1920px/2); 
     top: calc(50% - 1080px/2);
 }
-@media screen and (max-width: 460px){
+@media screen and (max-width: 486px){
     .header_company_name h1 {
-        font-size: 38px;
+        font-size: 42px;
+    }
+    .header_tagline{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 430px){
+    .header_company_name h1 {
+        font-size: 39px;
+    }
+    .header_tagline{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 400px){
+    .header_company_name h1 {
+        font-size: 36px;
     }    
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 370px){
     .header_company_name h1 {
-        font-size: 34px;
+        font-size: 33px;
     }    
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 342px){
     .header_company_name h1 {
-        font-size: 29px;
+        font-size: 30px;
     }    
 }
-@media screen and (max-width: 310px){
+@media screen and (max-width: 317px){
     .header_company_name h1 {
-        font-size: 26px;
+        font-size: 27px;
+    }    
+}
+@media screen and (max-width: 287px){
+    .header_company_name h1 {
+        font-size: 24px;
     }    
 }
 .header_ride_button {
