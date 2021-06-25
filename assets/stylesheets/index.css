@@ -52,43 +52,68 @@ header{
 }
 @media screen and (max-width: 486px){
     .header_company_name h1 {
-        font-size: 42px;
+        font-size: 46px;
     }
     .header_tagline{
         font-size: 22px;
     }
 }
-@media screen and (max-width: 430px){
+@media screen and (max-width: 467px){
     .header_company_name h1 {
-        font-size: 39px;
+        font-size: 44px;
     }
     .header_tagline{
         font-size: 19px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 448px){
     .header_company_name h1 {
-        font-size: 36px;
+        font-size: 42px;
     }    
 }
-@media screen and (max-width: 370px){
+@media screen and (max-width: 429px){
+    .header_company_name h1 {
+        font-size: 41px;
+    }    
+}
+@media screen and (max-width: 419px){
+    .header_company_name h1 {
+        font-size: 39px;
+    }    
+}
+@media screen and (max-width: 399px){
+    .header_company_name h1 {
+        font-size: 37px;
+    }    
+}
+@media screen and (max-width: 379px){
+    .header_company_name h1 {
+        font-size: 35px;
+    }    
+}
+@media screen and (max-width: 359px){
     .header_company_name h1 {
         font-size: 33px;
     }    
 }
 @media screen and (max-width: 342px){
     .header_company_name h1 {
-        font-size: 30px;
+        font-size: 31px;
     }    
 }
-@media screen and (max-width: 317px){
+@media screen and (max-width: 323px){
+    .header_company_name h1 {
+        font-size: 29px;
+    }    
+}
+@media screen and (max-width: 307px){
     .header_company_name h1 {
         font-size: 27px;
     }    
 }
-@media screen and (max-width: 287px){
+@media screen and (max-width: 285px){
     .header_company_name h1 {
-        font-size: 24px;
+        font-size: 25px;
     }    
 }
 .header_ride_button {
