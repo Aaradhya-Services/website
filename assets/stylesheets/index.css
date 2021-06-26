@@ -24,6 +24,31 @@ nav{
     letter-spacing: 1.5px;
     padding: 5px 12px !important;
 }
+.navbar_resize{
+    min-height: 60px;
+    transition: 0.2s;
+}
+.navbar_noresize{
+    min-height: 78px;
+    transition: 0.2s;
+}
+.navbar_logo_noresize{
+    height: 52px;
+    transition: 0.2s;
+}
+.navbar_logo_resize{
+    height: 40px;
+    transition: 0.2s;
+    margin-top: -3px;
+}
+.navbar_toggler_noresize{
+    margin-top: 0px;
+    transition: 0.2s;
+}
+.navbar_toggler_resize{
+    margin-top: -6px;
+    transition: 0.2s;
+}
 header{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
