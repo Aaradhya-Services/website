@@ -159,6 +159,20 @@ header{
     cursor: pointer;
     text-decoration: none;
 }
+.services_button{
+    background-color: transparent;
+    outline: none;
+    border: black 2px solid;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 110%;
+    font-weight: 600;
+}
+.services_button:hover{
+    background-color: black;
+    color: #FE8800;
+    transition: 0.3s;
+}
 .contact_submit_button{
     background-color: #FE8800;
     outline: none;

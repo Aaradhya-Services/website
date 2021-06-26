@@ -40,63 +40,6 @@ $('.navbar-nav>li>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
 
-// Services Hover
-$("#services_insurance").hover(
-    function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_insurance_description").css("visibility", "visible").hide().fadeIn('slow');
-        }
-    }, function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_insurance_description").css("visibility", "hidden");
-        }
-    }
-);
-
-$("#services_dealership").hover(
-    function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_dealership_description").css("visibility", "visible").hide().fadeIn('slow');
-        }
-    }, function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_dealership_description").css("visibility", "hidden");
-        }
-    }
-);
-
-$("#services_rental").hover(
-    function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_rental_description").css("visibility", "visible").hide().fadeIn('slow');
-        }
-    }, function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_rental_description").css("visibility", "hidden");
-        }
-    }
-);
-
-$("#services_labour").hover(
-    function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_labour_description").css("visibility", "visible").hide().fadeIn('slow');
-        }
-    }, function () {
-        if (!(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-            $("#services_labour_description").css("visibility", "hidden");
-        }
-    }
-);
-
-if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    $("#services_insurance_description").css("visibility", "visible");
-    $("#services_dealership_description").css("visibility", "visible");
-    $("#services_rental_description").css("visibility", "visible");
-    $("#services_labour_description").css("visibility", "visible");
-}
-
-
 $(window).scroll(function () {
     var scroll_amount = $(window).scrollTop();
     if (scroll_amount > 100) {
