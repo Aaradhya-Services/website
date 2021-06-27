@@ -18,7 +18,7 @@ nav{
     background-color: rgba(0, 0, 0, 0.8);
 }
 .nav-item a{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 135%;
     letter-spacing: 1.2px;
     padding: 5px 12px !important;
@@ -105,17 +105,17 @@ header{
         font-size: 39px;
     }    
 }
-@media screen and (max-width: 399px){
+@media screen and (max-width: 401px){
     .header_company_name h1 {
         font-size: 37px;
     }    
 }
-@media screen and (max-width: 379px){
+@media screen and (max-width: 380px){
     .header_company_name h1 {
         font-size: 35px;
     }    
 }
-@media screen and (max-width: 359px){
+@media screen and (max-width: 363px){
     .header_company_name h1 {
         font-size: 33px;
     }    
@@ -125,7 +125,7 @@ header{
         font-size: 31px;
     }    
 }
-@media screen and (max-width: 323px){
+@media screen and (max-width: 326px){
     .header_company_name h1 {
         font-size: 29px;
     }    
@@ -135,7 +135,7 @@ header{
         font-size: 27px;
     }    
 }
-@media screen and (max-width: 285px){
+@media screen and (max-width: 288px){
     .header_company_name h1 {
         font-size: 25px;
     }    
@@ -238,4 +238,16 @@ footer{
 .foot_tel:hover{
     color: rgba(255, 255, 255, 0.562);
     transition: 0.4s;
+}
+.foot_link{
+    text-decoration: none;
+    color: #FE8800;
+    font-weight: 600;
+}
+.foot_link:hover{
+    color: black;
+    transition: 0.4s;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background-color: white;
 }
