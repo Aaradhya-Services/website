@@ -74,7 +74,7 @@ header{
     left: calc(50% - 1920px/2); 
     top: calc(50% - 1080px/2);
 }
-@media screen and (max-width: 486px){
+@media screen and (max-width: 768px){
     .header_company_name h1 {
         font-size: 46px;
     }
@@ -82,7 +82,7 @@ header{
         font-size: 22px;
     }
 }
-@media screen and (max-width: 467px){
+@media screen and (max-width: 540px){
     .header_company_name h1 {
         font-size: 44px;
     }
@@ -90,54 +90,70 @@ header{
         font-size: 19px;
     }
 }
-@media screen and (max-width: 448px){
+@media screen and (max-width: 518px){
     .header_company_name h1 {
         font-size: 42px;
     }    
 }
-@media screen and (max-width: 429px){
+@media screen and (max-width: 496px){
     .header_company_name h1 {
         font-size: 41px;
     }    
 }
-@media screen and (max-width: 419px){
+@media screen and (max-width: 485px){
     .header_company_name h1 {
         font-size: 39px;
     }    
 }
-@media screen and (max-width: 401px){
+@media screen and (max-width: 461px){
     .header_company_name h1 {
         font-size: 37px;
     }    
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 439px){
     .header_company_name h1 {
         font-size: 35px;
     }    
 }
-@media screen and (max-width: 363px){
+@media screen and (max-width: 418px){
     .header_company_name h1 {
         font-size: 33px;
     }    
 }
-@media screen and (max-width: 342px){
+@media screen and (max-width: 396px){
     .header_company_name h1 {
         font-size: 31px;
     }    
 }
-@media screen and (max-width: 326px){
+@media screen and (max-width: 375px){
     .header_company_name h1 {
         font-size: 29px;
     }    
 }
-@media screen and (max-width: 307px){
+@media screen and (max-width: 352px){
     .header_company_name h1 {
         font-size: 27px;
-    }    
+    }
+    .header_tagline{
+        font-size: 17px;
+    }
 }
-@media screen and (max-width: 288px){
+@media screen and (max-width: 331px){
     .header_company_name h1 {
         font-size: 25px;
+    }    
+}
+@media screen and (max-width: 307px){
+    .header_company_name h1 {
+        font-size: 23px;
+    }
+    .header_tagline{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 287px){
+    .header_company_name h1 {
+        font-size: 21px;
     }    
 }
 .header_ride_button {
