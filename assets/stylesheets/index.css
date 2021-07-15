@@ -1,269 +1,273 @@
-*{
-    font-family: 'ABeeZee', sans-serif;
+* {
+  font-family: "ABeeZee", sans-serif;
 }
 ::-webkit-scrollbar {
-    width: 7px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 7px;
+  background: #888;
+  border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+  background: #555;
 }
-nav{
-    background-color: rgba(0, 0, 0, 0.8);
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-.nav-item a{
-    font-weight: 600;
-    font-size: 135%;
-    letter-spacing: 1.2px;
-    padding: 5px 12px !important;
+.nav-item a {
+  font-weight: 600;
+  font-size: 135%;
+  letter-spacing: 1.2px;
+  padding: 5px 12px !important;
 }
-.navbar_resize{
-    min-height: 60px;
-    transition: 0.2s;
+.navbar_resize {
+  min-height: 60px;
+  transition: 0.2s;
 }
-.navbar_noresize{
-    min-height: 78px;
-    transition: 0.2s;
+.navbar_noresize {
+  min-height: 78px;
+  transition: 0.2s;
 }
-.navbar_logo_noresize{
-    height: 52px;
-    transition: 0.2s;
+.navbar_logo_noresize {
+  height: 52px;
+  transition: 0.2s;
 }
-.navbar_logo_resize{
-    height: 40px;
-    transition: 0.2s;
-    margin-top: -3px;
+.navbar_logo_resize {
+  height: 40px;
+  transition: 0.2s;
+  margin-top: -3px;
 }
-.navbar_toggler_noresize{
-    margin-top: 0px;
-    transition: 0.2s;
+.navbar_toggler_noresize {
+  margin-top: 0px;
+  transition: 0.2s;
 }
-.navbar_toggler_resize{
-    margin-top: -6px;
-    transition: 0.2s;
+.navbar_toggler_resize {
+  margin-top: -6px;
+  transition: 0.2s;
 }
-header{
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
+header {
+  height: 100vh;
+  background: url(../videos/hero_background.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.header_company_name{
-    width: fit-content;
+.header_company_name {
+  width: fit-content;
 }
 .header_company_name h1 {
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .05em;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 48px;
-    color: white !important;
-    font-weight: 900;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 48px;
+  color: white !important;
+  font-weight: 900;
 }
-.header_background_video{
-    position: fixed;
-    min-width: 100vw; 
-    min-height: 100vh; 
-    z-index: -1; 
-    left: calc(50% - 1920px/2); 
-    top: calc(50% - 1080px/2);
+.header_background_video {
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -1;
+  top: 0;
+  left: calc(50% - 1477px / 2);
 }
-@media screen and (max-width: 768px){
-    .header_company_name h1 {
-        font-size: 46px;
-    }
-    .header_tagline{
-        font-size: 22px;
-    }
+@media screen and (max-width: 768px) {
+  .header_company_name h1 {
+    font-size: 46px;
+  }
+  .header_tagline {
+    font-size: 22px;
+  }
 }
-@media screen and (max-width: 540px){
-    .header_company_name h1 {
-        font-size: 44px;
-    }
-    .header_tagline{
-        font-size: 19px;
-    }
+@media screen and (max-width: 540px) {
+  .header_company_name h1 {
+    font-size: 44px;
+  }
+  .header_tagline {
+    font-size: 19px;
+  }
 }
-@media screen and (max-width: 518px){
-    .header_company_name h1 {
-        font-size: 42px;
-    }    
+@media screen and (max-width: 518px) {
+  .header_company_name h1 {
+    font-size: 42px;
+  }
 }
-@media screen and (max-width: 496px){
-    .header_company_name h1 {
-        font-size: 41px;
-    }    
+@media screen and (max-width: 496px) {
+  .header_company_name h1 {
+    font-size: 41px;
+  }
 }
-@media screen and (max-width: 485px){
-    .header_company_name h1 {
-        font-size: 39px;
-    }    
+@media screen and (max-width: 485px) {
+  .header_company_name h1 {
+    font-size: 39px;
+  }
 }
-@media screen and (max-width: 461px){
-    .header_company_name h1 {
-        font-size: 37px;
-    }    
+@media screen and (max-width: 461px) {
+  .header_company_name h1 {
+    font-size: 37px;
+  }
 }
-@media screen and (max-width: 439px){
-    .header_company_name h1 {
-        font-size: 35px;
-    }    
+@media screen and (max-width: 439px) {
+  .header_company_name h1 {
+    font-size: 35px;
+  }
 }
-@media screen and (max-width: 418px){
-    .header_company_name h1 {
-        font-size: 33px;
-    }    
+@media screen and (max-width: 418px) {
+  .header_company_name h1 {
+    font-size: 33px;
+  }
 }
-@media screen and (max-width: 396px){
-    .header_company_name h1 {
-        font-size: 31px;
-    }    
+@media screen and (max-width: 396px) {
+  .header_company_name h1 {
+    font-size: 31px;
+  }
 }
-@media screen and (max-width: 375px){
-    .header_company_name h1 {
-        font-size: 29px;
-    }    
+@media screen and (max-width: 375px) {
+  .header_company_name h1 {
+    font-size: 29px;
+  }
 }
-@media screen and (max-width: 352px){
-    .header_company_name h1 {
-        font-size: 27px;
-    }
-    .header_tagline{
-        font-size: 17px;
-    }
+@media screen and (max-width: 352px) {
+  .header_company_name h1 {
+    font-size: 27px;
+  }
+  .header_tagline {
+    font-size: 17px;
+  }
 }
-@media screen and (max-width: 331px){
-    .header_company_name h1 {
-        font-size: 25px;
-    }    
+@media screen and (max-width: 331px) {
+  .header_company_name h1 {
+    font-size: 25px;
+  }
 }
-@media screen and (max-width: 307px){
-    .header_company_name h1 {
-        font-size: 23px;
-    }
-    .header_tagline{
-        font-size: 15px;
-    }
+@media screen and (max-width: 307px) {
+  .header_company_name h1 {
+    font-size: 23px;
+  }
+  .header_tagline {
+    font-size: 15px;
+  }
 }
-@media screen and (max-width: 287px){
-    .header_company_name h1 {
-        font-size: 21px;
-    }    
+@media screen and (max-width: 287px) {
+  .header_company_name h1 {
+    font-size: 21px;
+  }
 }
 .header_ride_button {
-    width: 200px;
-    height: 60px;
-    background: transparent;
-    border: 1.4px solid white;
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 14px;
-    font-size: 20px;
+  width: 200px;
+  height: 60px;
+  background: transparent;
+  border: 1.4px solid white;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+  font-size: 20px;
 }
 .header_ride_button:hover {
-    color: #FE8800;
-    background: white;
-    transition: 0.3s;
-    cursor: pointer;
-    text-decoration: none;
+  color: #fe8800;
+  background: white;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
 }
-.services_button{
-    background-color: transparent;
-    outline: none;
-    border: black 2px solid;
-    border-radius: 3px;
-    padding: 5px 15px;
-    font-size: 110%;
-    font-weight: 600;
+.services_button {
+  background-color: transparent;
+  outline: none;
+  border: black 2px solid;
+  border-radius: 3px;
+  padding: 5px 15px;
+  font-size: 110%;
+  font-weight: 600;
 }
-.services_button:hover{
-    background-color: black;
-    color: #FE8800;
-    transition: 0.3s;
+.services_button:hover {
+  background-color: black;
+  color: #fe8800;
+  transition: 0.3s;
 }
-.contact_submit_button{
-    background-color: #FE8800;
-    outline: none;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 3px;
-    color: white;
+.contact_submit_button {
+  background-color: #fe8800;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  color: white;
 }
-.contact_submit_button:hover{
-    background-color: #f18100;
-    transition: 0.1s;
+.contact_submit_button:hover {
+  background-color: #f18100;
+  transition: 0.1s;
 }
-.contact_submit_button:focus{
-    box-shadow: 0 0 0 0.25rem #fe870079;
-    transition: 0.3s;
+.contact_submit_button:focus {
+  box-shadow: 0 0 0 0.25rem #fe870079;
+  transition: 0.3s;
 }
-footer{
-    background-color: rgba(0, 0, 0);
+footer {
+  background-color: rgba(0, 0, 0);
 }
-@media screen and (max-width: 768px){
-    #foot_left {
-        text-align: center !important;
-    }
+@media screen and (max-width: 768px) {
+  #foot_left {
+    text-align: center !important;
+  }
 }
-#foot_sms{
-    justify-content: center;
+#foot_sms {
+  justify-content: center;
 }
-.foot_socialmedia{
-    color: white;
+.foot_socialmedia {
+  color: white;
 }
-.foot_socialmedia:hover{
-    color: rgba(255, 255, 255, 0.562);
-    transition: 0.4s;
+.foot_socialmedia:hover {
+  color: rgba(255, 255, 255, 0.562);
+  transition: 0.4s;
 }
-#foot_mail_id{
-    text-align: right !important;
-    margin: 0 !important;
-    padding: 0 !important;
+#foot_mail_id {
+  text-align: right !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 @media (max-width: 768px) {
-    #foot_mail_id{
-        text-align: center !important;
-    }
-    #foot_telephone{
-        text-align: center !important;
-    }
-    #foot_left{
-        text-align: center !important;
-    }
+  #foot_mail_id {
+    text-align: center !important;
+  }
+  #foot_telephone {
+    text-align: center !important;
+  }
+  #foot_left {
+    text-align: center !important;
+  }
 }
-.foot_mail{
-    text-decoration: none;
-    color: white;
+.foot_mail {
+  text-decoration: none;
+  color: white;
 }
-.foot_mail:hover{
-    color: rgba(255, 255, 255, 0.562);
-    transition: 0.4s;
+.foot_mail:hover {
+  color: rgba(255, 255, 255, 0.562);
+  transition: 0.4s;
 }
-.foot_tel{
-    text-decoration: none;
-    color: white;
+.foot_tel {
+  text-decoration: none;
+  color: white;
 }
-.foot_tel:hover{
-    color: rgba(255, 255, 255, 0.562);
-    transition: 0.4s;
+.foot_tel:hover {
+  color: rgba(255, 255, 255, 0.562);
+  transition: 0.4s;
 }
-.foot_link{
-    text-decoration: none;
-    color: #FE8800;
-    font-weight: 600;
+.foot_link {
+  text-decoration: none;
+  color: #fe8800;
+  font-weight: 600;
 }
-.foot_link:hover{
-    color: black;
-    transition: 0.4s;
-    padding: 2px 7px;
-    border-radius: 4px;
-    background-color: white;
+.foot_link:hover {
+  color: black;
+  transition: 0.4s;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background-color: white;
 }
